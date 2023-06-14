@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;700&display=swap');
+#content {
+    background-color: white;
+    font-family: $fontFamily;
+    font-weight: $lightOswald;
+    margin: 0 auto;
+  }
+  header{
+    background-color: $h1BgColor;
+}
+.logo_header{
+  display: block;
+}
+  .headcon {
+    display: flex;
+    margin:3% 3% 3% 3% ;
+  }
+ .title{
+  font-size: 1.5em;
+ }
+ 
+
+
+.input-icons {
+  width: 100%;
+  margin-bottom: 10px;
+  i {
+    position: absolute;
+  }
+}
+
+.icon {
+  padding: 10px;
+  width: auto;
+  height: 150px;
+}
+
+.input-field {
+  font-family: $fontFamily;
+    font-weight: $lightOswald;
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+}
+
+  h1 {
+    color: $h1Color;
+    font-family: $fontFamily;
+    font-weight: $boldOswald;
+    
+}
+h2 {
+    color:$h2Color;
+    font-family: $fontFamily;
+    font-weight: $lightOswald;
+}
+h3{
+    color: $h3Color;
+    font-family: $fontFamily;
+    font-weight: $lightOswald; 
+}
+p{
+    font-family:$paragraphFont;
+}
+body {display: block;
+}
+
+
+
+nav{
+    font-family: $fontFamily;
+    font-weight: $lightOswald;
+    background-color: $h3Color;
+    margin: 0 auto;
+   
+    ul{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    font-size: 1.2em;
+    margin: auto;
+        li{
+        flex: 1 1 auto;
+        }
+        a{
+            text-align: center;
+            display: block;
+            padding: 0.8rem 2%;
+            text-decoration: none;;
+            color: $h3BgColor;
+            transition: height 0.5s;
+            -webkit-transition: height 0.5s;
+            transition: 0.5s;
+            }
+    }
+}
+
+.active{
+    color: $h3Color;
+    height: auto;
+    width: auto;  
+    background-color: $h3BgColor;
+    
+}
+nav ul li a:hover{
+    padding:1em;
+}
+
+nav {
+    display: block;
+    ul{
+        margin: 0;
+    }
+  }
+ul.head_navigation.responsive li {
+    display: block;
+  }
+  //youuuuuu
+  .head_navigation {
+    overflow: hidden;
+    display: block;
+    
+  }
+  //
+  .head_navigation li:first-child {
+    display: block;
+  }
+  .head_navigation li {
+    display: none;
+  }
+  .dropdown{
+    text-align: center;
+    margin: auto;
+  }
+  .dropbtn {
+ 
+    background-color: $h3Color;
+    color: $h3BgColor;
+    font-family: $fontFamily;
+    font-weight: $lightOswald;
+    border: none;
+  }
+  
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    margin-left: 50px;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+
+  
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown:hover .dropbtn {
+    background-color: $h3BgColor;
+    color: $h3Color;
+  }
+  
+// a:visited {
+// color: rgb(234, 221, 246);
+// }
+// a:hover{
+// text-decoration: underline coral;
+// }
+// a:active{
+//     text-decoration: underline overline #FF3028;
+// }
+main {
+    margin: 15px;
+    max-width: 900px;
+   
+  }
+  .row {
+    display: block;
+    padding: 5%;
+  div{
+    background-color: $h3BgColor;
+    text-align: center;
+    line-height: 5em;
+    width: 60%;
+    margin: 0 auto;
+    border-radius: 15px;
+    box-shadow: $boxShadow;
+    transition: 0.3s;
+    h3{
+      font-weight: $boldOswald;
+    }
+    .row div:hover{
+      box-shadow: $boxShadowTrans;
+    }
+  }}
+  .cta{
+    text-align: center;
+    h1{
+    background-color: $h1BgColor;
+    
+    line-height: 5em;
+    margin: 0 auto;}
+  }
+  .containers{
+    max-width: 600px;
+    margin: 0.5rem auto;
+    border: 1px solid #bbb;
+    background-color: #eee;
+    display: block;
+  }
+  .card{
+    padding: 2%;
+    text-align: right;
+    margin: 15px;
+    box-shadow: $boxShadow;
+      transition: 0.3s;
+    img{
+      width: auto;
+    height: auto;
+    float: left;
+    }}
+    .card:nth-of-type(even) {
+      text-align: left;
+      img {
+        float: right;
+    }
+    }
+    
+    .card:hover {
+      box-shadow: $boxShadowTrans;
+    }
+    
+    .container {
+      padding: 2px 16px;
+    }
+  footer{
+    background-color: $h3Color;
+    color: $h3BgColor;
+  }
+
+

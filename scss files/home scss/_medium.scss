@@ -1,0 +1,101 @@
+.head_navigation{
+    display: flex;
+    li {
+        display: block;
+        }
+    }
+
+ 
+  // this shows or hides the menu button.
+.head_navigation li:first-child {
+    display: none;
+  }
+.logo_header{
+    display: flex;
+    justify-content: space-between;
+  }
+.row{
+  display: flex;
+  justify-content: space-between;
+    div{
+      width: 25%;
+    }
+}
+
+.title {
+    display: flex;
+    flex:1 1 auto;
+    font-size: 2em;
+  }
+
+
+footer{
+    text-align: center;
+  }
+  .bottom-nav{
+    width: 100%;
+    height: auto;
+  }
+.contact-ul{
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
+  .contact{
+    font-weight: $boldOswald;}
+
+.bottom-ul{
+  display: inline-flex;
+  font-size:larger;
+  li {
+    display: block;
+    padding: 10px;
+  }}
+}
+.bottomer-ul{
+  display: flex;
+  justify-content: center;
+  
+  .catbreeds-ul, .getinvolved-ul{
+    display: block;
+    text-decoration: none;
+  }
+}
+
+
+form{
+margin: 0 auto;
+width: 50%;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: $h1BgColor;
+  color: $h1Color;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: $h1Color;
+  color: $h1BgColor;
+}
+textarea {
+  height: 65px!important;
+  width: auto;
+  margin: 1em;
+}

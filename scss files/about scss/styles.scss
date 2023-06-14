@@ -1,0 +1,11 @@
+@import "../home scss/normalize";
+@import "../home scss/variables";
+@import "../home scss/small";
+
+@media only screen and (min-width: 560px) {
+    @import "../home scss/medium";
+} /* end of media query */ 
+
+
+@media only screen and (min-width: 1028px) {
+@import "../home scss/large";} /* end of media query */
