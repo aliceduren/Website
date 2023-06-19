@@ -150,19 +150,20 @@
         <div class="contact">
             <h2>Contact</h2>
             <p>Get in Touch!</p>
-            <form action="https://www.youtube.com/watch?v=oHg5SJYRHA0&ab_channel=cotter548">
-                <label for="fname">First Name</label>
-                <input type="text" id="fname" name="firstname" placeholder="Your name.." minlength="5" pattern="[A-Za-z ]{3,50}" required>
+            <form name="contactform"  action="thanku.html" onSubmit="bleh(); return false">
                 
-                <label for="lname">Last Name</label>
-                <input type="text" id="lname" name="lastname" placeholder="Your last name.." minlength="5" pattern="[A-Za-z ]{3,50}" required>
+                    <label for="name">Full Name:</label>
+                    <input type="text" id="name" name="names" minlength="5" pattern="[A-Za-z ]{3,50}" required>
                 
-                <label for="country">Country</label>
-                <select id="country" name="country">
-                    <option value="australia">Australia</option>
-                    <option value="canada">Canada</option>
-                    <option value="usa">USA</option>
-                </select>
+                
+                    <label for="date">Date:</label>
+                    <input type="date" id="date" name="date" required>
+                
+               
+                
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="user@email.org" required>
+                
                 
                 <label for="subject">Subject</label>
                 <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
