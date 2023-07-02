@@ -567,19 +567,19 @@ main {
 
 .card {
   padding: 2%;
-  text-align: right;
+  text-align: left;
   margin: 15px;
   box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.3);
   transition: 0.3s; }
   .card img {
     width: auto;
     height: auto;
-    float: left; }
+    float: right; }
 
 .card:nth-of-type(even) {
-  text-align: left; }
+  text-align: right; }
   .card:nth-of-type(even) img {
-    float: right; }
+    float: left; }
 
 .card:hover {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2); }

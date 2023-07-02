@@ -392,8 +392,7 @@ template {
 
 #heroimage {
   display: block;
-  text-align: center;
-  position: relative; }
+  text-align: center;}
   #heroimage span {
     position: absolute;
     top: 50%;
