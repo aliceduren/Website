@@ -449,7 +449,21 @@
  
  body {
    display: block; }
- 
+ nav .active {
+  text-align: center;
+  padding: 0.8rem 2%;
+  transition: height 0.5s;
+  -webkit-transition: height 0.5s;
+  transition: 0.5s; }
+  nav .active .dropbtn{
+    color: #0C7CB3;
+    background-color: #87D8FF;
+    transition: height 0.5s;
+       -webkit-transition: height 0.5s;
+       transition: 0.5s; 
+  }
+  nav .active .dropbtn:hover {
+    padding: .5em; }
  nav {
    font-family: "Oswald", sans-serif;
    font-weight: 300;
@@ -528,9 +542,6 @@
  .dropdown:hover .dropdown-content {
    display: block; }
  
- .dropdown:hover .dropbtn {
-   background-color: #87D8FF;
-   color: #0C7CB3; }
  
  main {
    margin: 15px;
@@ -578,10 +589,7 @@
      height: auto;
      float: right; }
  
- .card:nth-of-type(even) {
-   text-align: right; }
-   .card:nth-of-type(even) img {
-     float: left; }
+
  
  .card:hover {
    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2); }

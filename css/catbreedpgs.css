@@ -340,7 +340,7 @@
   */
  [type="search"]::-webkit-search-cancel-button,
  [type="search"]::-webkit-search-decoration {
-   -webkit-appearance: none; }
+   appearance: none; }
  
  /**
   * 1. Correct the inability to style clickable types in iOS and Safari.
@@ -470,7 +470,21 @@
        transition: height 0.5s;
        -webkit-transition: height 0.5s;
        transition: 0.5s; }
- 
+       nav .active {
+        text-align: center;
+        padding: 0.8rem 2%;
+        transition: height 0.5s;
+        -webkit-transition: height 0.5s;
+        transition: 0.5s; }
+        nav .active .dropbtn{
+          color: #0C7CB3;
+          background-color: #87D8FF;
+          transition: height 0.5s;
+             -webkit-transition: height 0.5s;
+             transition: 0.5s; 
+        }
+        nav .active .dropbtn:hover {
+          padding: .5em; }
  .active {
    color: #0C7CB3;
    height: auto;
@@ -526,9 +540,7 @@
  .dropdown:hover .dropdown-content {
    display: block; }
  
- .dropdown:hover .dropbtn {
-   background-color: #87D8FF;
-   color: #0C7CB3; }
+
  
  main {
    margin: 15px;

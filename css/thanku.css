@@ -526,10 +526,7 @@
  .dropdown:hover .dropdown-content {
    display: block; }
  
- .dropdown:hover .dropbtn {
-   background-color: #87D8FF;
-   color: #0C7CB3; }
- 
+
  main {
    margin: 15px;
    max-width: 900px; }
