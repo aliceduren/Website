@@ -470,26 +470,24 @@
        transition: height 0.5s;
        -webkit-transition: height 0.5s;
        transition: 0.5s; }
-       nav .active {
-        text-align: center;
-        padding: 0.8rem 2%;
-        transition: height 0.5s;
-        -webkit-transition: height 0.5s;
-        transition: 0.5s; }
-        nav .active .dropbtn{
-          color: #0C7CB3;
-          background-color: #87D8FF;
-          transition: height 0.5s;
-             -webkit-transition: height 0.5s;
-             transition: 0.5s; 
-        }
-        nav .active .dropbtn:hover {
-          padding: .5em; }
+        
  .active {
+  text-align: center;
+  padding: 0.8rem 2%;
+  transition: height 0.5s;
+  -webkit-transition: height 0.5s;
+  transition: 0.5s; 
    color: #0C7CB3;
-   height: auto;
-   width: auto;
    background-color: #87D8FF; }
+   .active .dropbtn{
+    color: #0C7CB3;
+    background-color: #87D8FF;
+    transition: height 0.5s;
+       -webkit-transition: height 0.5s;
+       transition: 0.5s; 
+  } 
+   .active:hover {
+    padding: 1em; }
  
  nav ul li a:hover {
    padding: 1em; }
@@ -539,6 +537,8 @@
  
  .dropdown:hover .dropdown-content {
    display: block; }
+  
+
  
 
  
