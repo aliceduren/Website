@@ -1,55 +1,16 @@
-
- .row {
-   display: block;
-   padding: 5%; }
-   .row div {
-     background-color: #87D8FF;
-     text-align: center;
-     line-height: 5em;
-     width: 60%;
-     margin: 0 auto;
-     border-radius: 15px;
-     box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.3);
-     transition: 0.3s; }
-     .row div h3 {
-       font-weight: 700; }
-     .row div .row div:hover {
-       box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2); }
- 
- .cta {
-   text-align: center; }
-   .cta h1 {
-     background-color: #FFD39E;
-     line-height: 5em;
-     margin: 0 auto; }
- 
- .containers {
-   max-width: 600px;
-   margin: 0.5rem auto;
-   border: 1px solid #bbb;
-   background-color: #eee;
-   display: block; }
- 
- .card {
-   padding: 2%;
-   text-align: left;
-   margin: 15px;
-   box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.3);
-   transition: 0.3s; }
-   .card img {
-     width: auto;
-     height: auto;
-     float: right; }
- 
- .card:nth-of-type(even) {
-   text-align: right; }
-   .card:nth-of-type(even) img {
-     float: left; }
- 
- .card:hover {
-   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2); }
- 
- .container {
-   padding: 2px 16px; }
- 
- 
+  
+ .active {
+    text-align: center;
+    padding: 0.8rem 2%;
+    transition: height 0.5s;
+    -webkit-transition: height 0.5s;
+    transition: 0.5s; }
+     .active .dropbtn{
+      color: #0C7CB3;
+      background-color: #87D8FF;
+      
+    } 
+     .active:hover {
+      padding: 1em; }
+   
+  
