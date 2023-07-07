@@ -19,8 +19,9 @@
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;700&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="../css/catbreedpgs.css">
-    <link rel="stylesheet" href="../css/about.css">
+    <link rel="stylesheet" href="../css/all.css">
     <!--Links-->
 
     <!--Javascripts-->
@@ -100,7 +101,7 @@
                         <li>White Paws</li>
                         <li>Green Eyes</li>
                       </ul>  
-                    <h3>Character Trait</h3>
+                    <h3>Character Traits</h3>
                     <ul>
                         <li>Friendly</li>
                         <li>Shy</li>
@@ -153,25 +154,34 @@
             <h2>Contact</h2>
             <p>Get in Touch!</p>
             <form name="contactform"  action="thanku.html" onSubmit="bleh(); return false">
+                <div>
+                <ul class="perinfo">
+                <li>
+                    <label for="name">Full Name:</label>
+                    <input type="text" id="name" name="names" minlength="5" pattern="[A-Za-z ]{3,50}" required>
+                </li>
+                    
                 
-                <label for="name">Full Name:</label>
-                <input type="text" id="name" name="names" minlength="5" pattern="[A-Za-z ]{3,50}" required>
-            
-            
-                <label for="date">Date:</label>
-                <input type="date" id="date" name="date" required>
-            
-           
-            
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" placeholder="user@email.org" required>
-            
-            
-            <label for="subject">Subject</label>
-            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-            
-            <input type="submit" value="Submit">
-            
+                
+                <li> 
+                    <label for="date">Date:</label>
+                    <input type="date" id="date" name="date" required>
+                </li> 
+               
+                
+                <li>   
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="user@email.org" required>
+                </li> 
+                
+                <li><label for="subject">Subject</label></li>
+                <li>
+                <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                
+                <input type="submit" value="Submit">
+            </li>
+                </ul>
+            </div>
         </form>
         </div>
         <div class="bottom-nav">
