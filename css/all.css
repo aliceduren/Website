@@ -330,7 +330,7 @@
   
   .headcon {
     display: flex;
-    margin: 3% 3% 3% 3%; }
+    margin: 2% 0 2% 2%; }
   
   .title {
     font-size: 1.5em; }
@@ -467,7 +467,6 @@ color: #87D8FF;
   text-align: center; }
 
 .bottom-nav {
-  width: 100%;
   height: auto; }
 
 
@@ -598,18 +597,18 @@ textarea {
   
     .logo_header {
       display: flex;
-      justify-content: space-between; }
+      justify-content: space-around; }
   
     .row {
       display: flex;
       justify-content: space-between; }
       .row div {
-        width: 25%; }
+        width: auto;
+        padding: 0em 3em;}
   
     .title {
       display: flex;
-      flex: 1 1 auto;
-      font-size: 2em; }
+      flex: 1 1 auto; }
 
       .contact-ul {
         display: flex;
@@ -624,7 +623,7 @@ textarea {
 }
 @media only screen and (min-width: 1028px) {
   header, nav, main, footer {
-    margin: auto; } 
+    margin: 0 auto; } 
     
 
 }
