@@ -396,12 +396,12 @@
         transition: height 0.5s;
         -webkit-transition: height 0.5s;
         transition: 0.5s; }
-  
-  .active {
+  /*rip for now*/
+  /* .active {
     color: #0C7CB3;
     height: auto;
     width: auto;
-    background-color: #87D8FF; }
+    background-color: #87D8FF; } */
   
   nav ul li a:hover {
     padding: 1em; }
