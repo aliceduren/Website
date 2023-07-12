@@ -1,4 +1,23 @@
 
+nav {
+  font-family: "Oswald", sans-serif;
+  font-weight: 300;
+  background-color: #0C7CB3;
+  margin: 0 auto; }
+
+      nav .active {
+       text-align: center;
+       padding: 0.8rem 2%;
+       transition: height 0.5s;
+       -webkit-transition: height 0.5s;
+       transition: 0.5s; }
+       nav .active .dropbtn{
+         color: #0C7CB3;
+         background-color: #87D8FF;
+         transition: height 0.5s;
+            -webkit-transition: height 0.5s;
+            transition: 0.5s; 
+       }
  main {
    margin: 15px;
    max-width: 900px; }
@@ -53,9 +72,7 @@
  .container {
    padding: 2px 16px; }
  
- footer {
-   background-color: #0C7CB3;
-   color: #87D8FF; }
+
  
  @media only screen and (min-width: 560px) {
    .head_navigation {
@@ -134,15 +151,21 @@
   text-align: center;
   
 }
-.card{
-  text-align: center;
-}
+
 section {
   width: 95%;
   background-color: khaki;
   border: solid 1px black;
   margin-bottom: 10px;
   box-shadow: 5px 5px rgba(0, 0, 0, 0.425);
+}
+
+@media only screen and (max-width: 1200px) {
+  .cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  
 }
 
 @media only screen and (max-width: 800px) {
@@ -152,10 +175,3 @@ section {
   }
   
 } 
-@media only screen and (max-width: 1200px) {
-  .cards {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-  }
-  
-}

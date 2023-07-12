@@ -12,4 +12,18 @@
   } 
    .active:hover {
     padding: 1em; }
- 
+ .upper-div img{
+max-width: 50%;
+ }
+.info{
+  float: right;
+}
+
+
+@media only screen and (max-width: 800px) {
+  .info{
+    float:none;
+  }
+  
+  
+} 

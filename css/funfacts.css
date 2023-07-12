@@ -1,0 +1,11 @@
+#heroimage {
+    display: block;
+    text-align: center;}
+    #heroimage span {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%); }
+    #heroimage img {
+      width: 100%;
+      height: auto; }

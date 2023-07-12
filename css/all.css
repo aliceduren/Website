@@ -397,11 +397,11 @@
         -webkit-transition: height 0.5s;
         transition: 0.5s; }
   /*rip for now*/
-  /* .active {
+  .active {
     color: #0C7CB3;
     height: auto;
     width: auto;
-    background-color: #87D8FF; } */
+    background-color: #87D8FF; }
   
   nav ul li a:hover {
     padding: 1em; }
@@ -484,7 +484,7 @@ color: #87D8FF;
   justify-content: center; }
   .bottomer-ul .catbreeds-ul, .bottomer-ul .getinvolved-ul {
     display: block;
-    text-decoration: none; }
+    list-style: none; }
 
 .row {
  display: block;
@@ -527,7 +527,7 @@ color: #87D8FF;
    max-width: 27%;
    max-height: 100%;
    display: block;
- margin-left: 5%;}
+ margin: 0 5%;}
 
 .card:nth-of-type(even) {
  text-align: right; }
@@ -618,9 +618,7 @@ textarea {
  
    
 /* end of media query */
-@media only screen and (min-width: 700px){
-    
-}
+
 @media only screen and (min-width: 1028px) {
   header, nav, main, footer {
     margin: 0 auto; } 
