@@ -17,3 +17,8 @@ main div img{
   padding: 10px;
   
 }
+.card:nth-of-type(even) {
+  text-align: right; }
+  .card:nth-of-type(even) img {
+    float: left; }
+ 

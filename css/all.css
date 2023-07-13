@@ -529,10 +529,6 @@ color: #87D8FF;
    display: block;
  margin: 0 5%;}
 
-.card:nth-of-type(even) {
- text-align: right; }
- .card:nth-of-type(even) img {
-   float: left; }
 
 .card:hover {
  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2); }

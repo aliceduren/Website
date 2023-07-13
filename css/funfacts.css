@@ -9,3 +9,10 @@
     #heroimage img {
       width: 100%;
       height: auto; }
+      
+
+      .card:nth-of-type(even) {
+        text-align: right; }
+        .card:nth-of-type(even) img {
+          float: left; }
+       
